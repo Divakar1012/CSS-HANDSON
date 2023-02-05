@@ -1,0 +1,52 @@
+<!doctypehtml>
+<head>
+    <style>
+        body{
+            background-image: url('https://media.istockphoto.com/id/1255359039/photo/astronaut-on-space-walk-looks-at-lights-of-planet-earth.jpg?s=612x612&w=0&k=20&c=SxzMMaPiwBK66yBtP4SDEhNhMvlzomEHY-rw-cBup_s=' );
+        }
+        .hello{border:2px solid white ;width:350px; height:400px; background-color: white; padding:30px;right 300; margin-left:470px;margin-top:230px; }
+        
+        #submit{border:2px solid;border-radius: 20px; height: 30px; background-color:purple; color: white;}
+        #dropDown{border:2px solid; width:240px;}
+        #noOfTravellers{border:2px solid;}
+        #email{border:2px solid;}
+        #Image{}
+
+    </style>
+</head>
+<html>
+    <body >
+        <img id="backgroundImage" id="Image" src="" >
+        <div class="hello">
+            <h1 id="heading">Rocket around the Earth</h1>
+        <form >
+            
+            <label id="departure" for="name1">Departure Country</label><br>
+            <select name="country" id="dropDown" >
+                <datalist id="countries">
+                  <option value=" "> </option>
+                  <option value="Afganisthan">Afganisthan</option>
+                  <option value="Africa">Africa</option>
+                  <option value="India">India</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="Italy">Italy</option>
+                  <option value="France">France</option>
+                  <option value="Newzealand">Newzealand</option>
+                </datalist>
+              </select><br><br>
+            <label for="name2">No.of Soace Travellers</label><br>
+             <input type="text" name="name2" id="noOfTravellers" size="30"><br><br>
+             <label for="name3">Your email</label><br>
+             <input type="email" name="name3" id="email" placeholder="#ilovespace@gmail.com" size="30"><br><br>
+             <h3>Do you wanna rent a space suit</h3>
+             <input type="radio" id="yesOrNo" value="Yes,Please">
+             <label for="yes">Yes,Please</label>
+             <input type="radio" id="yesOrNo" value="No,I have my own">
+             <label for="no">No,I have my own</label><br><br>
+             <input type="submit" value="TAKE US TO SPACE" style="margin: 20px;" id="submit">
+
+              
+        </form>
+        </div>
+    </body>
+</html>
